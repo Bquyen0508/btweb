@@ -14,7 +14,7 @@ body{
 }
 
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px) and (max-width: 1024px){
     .header h1:first-child{
         font-weight: 200;
     }
@@ -50,6 +50,9 @@ body{
     }
     img{
         width: 300px;
+    }
+    .London img{
+        height: 200px;
     }
     
 }
